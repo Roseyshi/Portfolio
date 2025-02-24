@@ -1,36 +1,24 @@
+/* Default Light Mode */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
     background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+    color: #333;
 }
 
-header {
+/* Dark Mode */
+.dark-mode {
+    background-color: #121212;
+    color: #f4f4f4;
+}
+
+/* Toggle Button */
+.toggle-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
     background: #0077b6;
     color: white;
-    padding: 20px;
-}
-
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-section {
-    margin: 50px auto;
-    padding: 20px;
-    max-width: 800px;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-.project {
-    background: #eee;
-    padding: 10px;
-    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
     border-radius: 5px;
 }
