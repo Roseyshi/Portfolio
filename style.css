@@ -1,4 +1,33 @@
 /* display background color black on navbar scroll */
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .navbar {
+    background-color: #333;
+}
+
+.dark-mode .card {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .skillsText:hover {
+    border: 1px solid #ffffff;
+}
+
+.dark-mode .fab {
+    color: white;
+}
+
+.dark-mode #footer {
+    background-color: #222;
+    color: white;
+}
+
+
 .navbarScroll.navbarDark {
     background-color: black;
 }
