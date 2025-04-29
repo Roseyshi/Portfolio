@@ -105,3 +105,9 @@
     text-align: center;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensure all cards fill available height */
+}
